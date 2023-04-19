@@ -37,6 +37,7 @@ try
         }
     }
 
+    Console.Clear();
     Tela.imprimirTabuleiro(partida.Tab);
 }
 catch (TabuleiroException e)
